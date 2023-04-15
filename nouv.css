@@ -1,0 +1,30 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.droite {
+    background-color: rgb(10, 169, 248) ;
+    width: 300px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.gauche{
+    background-color: rgba(253, 255, 255, 0.63) ;
+    margin-left: 100px;
+    margin-right:40px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
